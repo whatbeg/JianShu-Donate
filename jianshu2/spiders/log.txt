@@ -1,0 +1,902 @@
+2016-05-19 14:35:57 [scrapy] INFO: Scrapy 1.1.0 started (bot: jianshu2)
+2016-05-19 14:35:57 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'jianshu2.spiders', 'FEED_URI': 'data.csv', 'SPIDER_MODULES': ['jianshu2.spiders'], 'BOT_NAME': 'jianshu2', 'FEED_FORMAT': 'csv', 'LOG_FILE': u'D:\\Python27\\jianshu2\\jianshu2\\spiders\\log.txt'}
+2016-05-19 14:35:57 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-05-19 14:35:58 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-05-19 14:35:58 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-05-19 14:35:58 [scrapy] INFO: Enabled item pipelines:
+[]
+2016-05-19 14:35:58 [scrapy] INFO: Spider opened
+2016-05-19 14:35:58 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-05-19 14:35:58 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com> (referer: None)
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/f2e54edf229d> (referer: http://www.jianshu.com)
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/1815b4071362> (referer: http://www.jianshu.com)
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/ee5432e57dd3> (referer: http://www.jianshu.com)
+2016-05-19 14:35:58 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/f2e54edf229d>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/04657c762d10> (referer: http://www.jianshu.com)
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/519551b6b5ab> (referer: http://www.jianshu.com)
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/b0dc04c927f1> (referer: http://www.jianshu.com)
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/0ea66783fbef> (referer: http://www.jianshu.com)
+2016-05-19 14:35:58 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/1815b4071362>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/931ecef07931> (referer: http://www.jianshu.com)
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/ec7ef24563bf> (referer: http://www.jianshu.com)
+2016-05-19 14:35:58 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/ee5432e57dd3>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:58 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/04657c762d10>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:58 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/519551b6b5ab>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:58 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/b0dc04c927f1>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/39449bcf9c28> (referer: http://www.jianshu.com)
+2016-05-19 14:35:58 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/0ea66783fbef>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/a58d15ef5c8b> (referer: http://www.jianshu.com)
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/ad491e073e4a> (referer: http://www.jianshu.com)
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/c684c0362986> (referer: http://www.jianshu.com)
+2016-05-19 14:35:58 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/931ecef07931>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:58 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/ec7ef24563bf>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:58 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/ba16db3f6f71> (referer: http://www.jianshu.com)
+2016-05-19 14:35:58 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/39449bcf9c28>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:58 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/a58d15ef5c8b>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:58 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/ad491e073e4a>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:58 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/c684c0362986>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/84c10f2cf100> (referer: http://www.jianshu.com)
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/73b9e77fbae3> (referer: http://www.jianshu.com)
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2> (referer: http://www.jianshu.com)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/ba16db3f6f71>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/6f19d663ce90> (referer: http://www.jianshu.com)
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/a233e5d10c80> (referer: http://www.jianshu.com)
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/73c54348374c> (referer: http://www.jianshu.com)
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/0d532effde79> (referer: http://www.jianshu.com)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/84c10f2cf100>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/73b9e77fbae3>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Filtered duplicate request: <GET http://www.jianshu.com/p/04657c762d10> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/6f19d663ce90>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/a233e5d10c80>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/73c54348374c>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/0d532effde79>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/d5f7bd05411f> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/d2fb994ab0a9> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/ce80d91d1f73> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/ff8e63c7c02c> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/d5f7bd05411f>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/592b5002155f> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/d69e1c1207ba> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/d2fb994ab0a9>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/ce80d91d1f73>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/6ca85655f47a> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/ff8e63c7c02c>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/bd22b618cf76> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/592b5002155f>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/93cbfa545211> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/d69e1c1207ba>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/7b152f2d4b50> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/6ca85655f47a>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/972486cdd46c> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/bd22b618cf76>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/af616487a4d8> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/0a458d51acee> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/3feff63a5d24> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/93cbfa545211>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/ae20508047c3> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/7b152f2d4b50>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/972486cdd46c>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/aef62a7e9b3f> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/af616487a4d8>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/baae76620232> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/0a458d51acee>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/3feff63a5d24>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/532d4e88fe7e> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/ae20508047c3>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/aef62a7e9b3f>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/baae76620232>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/59f09047f901> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/532d4e88fe7e>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/d48df9921dc9> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&page=2)
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/e2441e377e04> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/6d7bf7d611aa> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/59f09047f901>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/d7159874c59c> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/d48df9921dc9>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/93cbfa545211'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/e2441e377e04>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:35:59 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/6d7bf7d611aa>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/80ad43b531a9> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/97ce6b11859e> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/d7159874c59c>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/14851477f583> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/69290aa84737> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/99525e562c40> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/44167aa5c50c> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/80ad43b531a9>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/97ce6b11859e>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/14851477f583>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/02937d39fd20> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/cd6b89666a0d> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/35c05b0829d0> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/69290aa84737>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/99525e562c40>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/44167aa5c50c>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/4a4221e616a9> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/135545083d7d> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/02937d39fd20>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/cd6b89666a0d>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/35c05b0829d0>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/180bfa90838e> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/4a4221e616a9>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/499d00dbd237> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/54e74ce87404> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/135545083d7d>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/39b56aace51c> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/180bfa90838e>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/2cd79253f60a> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&page=3)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/499d00dbd237>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/54e74ce87404>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/39b56aace51c>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/2cd79253f60a>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/4a4221e616a9'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/3ddc92bf24ce> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/05182b54c1ac> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/bf59bfda03b2> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/59a6caf3d965> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/a771fff2df30> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/d61712df1d44> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/3ddc92bf24ce>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/05182b54c1ac>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/bf59bfda03b2>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/27de765cdb28> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/ca085d5bab61> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/59a6caf3d965>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/5804fa72aaed> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/a771fff2df30>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/f8e980d96029> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/d61712df1d44>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/de5b6b13164c> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/0ca5b015ca4c> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/27de765cdb28>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/ca085d5bab61>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/5804fa72aaed>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/e69606806d6c> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/f8e980d96029>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/04b51a2a0791> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/de5b6b13164c>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/0ca5b015ca4c>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:00 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/f74dfe3e0fc7> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:00 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/e69606806d6c>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/e3e5040c22ec> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/04b51a2a0791>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/e5a64bf5e3a6> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/373d77deaabf> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/f74dfe3e0fc7>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/e3e5040c22ec>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/e5a64bf5e3a6>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/cc9547b7212e> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/373d77deaabf>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/9c615fa6c559> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&page=4)
+2016-05-19 14:36:01 [scrapy] DEBUG: Ignoring link (url length > 2083): http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&note_ids%5B%5D=4009990&note_ids%5B%5D=4024605&note_ids%5B%5D=4015889&note_ids%5B%5D=4013161&note_ids%5B%5D=4009552&note_ids%5B%5D=4013519&note_ids%5B%5D=3992960&note_ids%5B%5D=4004730&note_ids%5B%5D=3942933&note_ids%5B%5D=4010852&note_ids%5B%5D=4001443&note_ids%5B%5D=4010126&note_ids%5B%5D=4012891&note_ids%5B%5D=4010312&note_ids%5B%5D=4006340&note_ids%5B%5D=3842467&note_ids%5B%5D=3992567&note_ids%5B%5D=3518182&note_ids%5B%5D=2629833&note_ids%5B%5D=3996611&page=6 
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/cc9547b7212e>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/9c615fa6c559>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/373d77deaabf'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/431329ffec13> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/02cc072e1f7a> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/b44378ed8b8e> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/d8fa88ab980a> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/b461a3c302e6> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/677356d89825> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/5b51de90171d> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/431329ffec13>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/02cc072e1f7a>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/b44378ed8b8e>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/85073df0eb9f> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/d8fa88ab980a>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/b461a3c302e6>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/677356d89825>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/868c4650c2b6> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/5b51de90171d>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/85073df0eb9f>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/db026a9ae335> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/590a364e0fad> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/b113a0935c1a> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/868c4650c2b6>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/41fa68959d96> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/7d5c74cde3bd> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/db026a9ae335>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/cf2c6a25b333> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/2f98170f6eda> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/590a364e0fad>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/b113a0935c1a>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/41fa68959d96>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/7d5c74cde3bd>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/3a3f386f5f73> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/cf2c6a25b333>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/587a898c93f4> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/2f98170f6eda>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:01 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/e227b97ef49a> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:01 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/3a3f386f5f73>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:02 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/587a898c93f4>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:02 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/a968a642d134> (referer: http://www.jianshu.com/top/daily?note_ids%5B%5D=4019608&note_ids%5B%5D=4019481&note_ids%5B%5D=4023238&note_ids%5B%5D=4010300&note_ids%5B%5D=4025839&note_ids%5B%5D=3974436&note_ids%5B%5D=3992795&note_ids%5B%5D=2393946&note_ids%5B%5D=4011405&note_ids%5B%5D=3992696&note_ids%5B%5D=4012333&note_ids%5B%5D=4013925&note_ids%5B%5D=3985115&note_ids%5B%5D=4029475&note_ids%5B%5D=3887824&note_ids%5B%5D=4009547&note_ids%5B%5D=3399750&note_ids%5B%5D=4025383&note_ids%5B%5D=3976666&note_ids%5B%5D=3708129&note_ids%5B%5D=3966903&note_ids%5B%5D=4015881&note_ids%5B%5D=4021988&note_ids%5B%5D=4025051&note_ids%5B%5D=4029475&note_ids%5B%5D=3943889&note_ids%5B%5D=3941510&note_ids%5B%5D=4013343&note_ids%5B%5D=4017782&note_ids%5B%5D=2601343&note_ids%5B%5D=4010305&note_ids%5B%5D=4004694&note_ids%5B%5D=4003436&note_ids%5B%5D=4024893&note_ids%5B%5D=4027049&note_ids%5B%5D=3484680&note_ids%5B%5D=4014599&note_ids%5B%5D=4024074&note_ids%5B%5D=3943562&note_ids%5B%5D=4013673&note_ids%5B%5D=4012859&note_ids%5B%5D=4014230&note_ids%5B%5D=4012578&note_ids%5B%5D=4012598&note_ids%5B%5D=4011891&note_ids%5B%5D=4004711&note_ids%5B%5D=4005632&note_ids%5B%5D=4009245&note_ids%5B%5D=4002554&note_ids%5B%5D=4015672&note_ids%5B%5D=3944712&note_ids%5B%5D=4013315&note_ids%5B%5D=3987458&note_ids%5B%5D=4014508&note_ids%5B%5D=4013480&note_ids%5B%5D=4013321&note_ids%5B%5D=4013753&note_ids%5B%5D=4010568&note_ids%5B%5D=4009667&note_ids%5B%5D=3947784&note_ids%5B%5D=4015029&note_ids%5B%5D=4018927&note_ids%5B%5D=3976517&note_ids%5B%5D=4018812&note_ids%5B%5D=4012316&note_ids%5B%5D=4015836&note_ids%5B%5D=4012697&note_ids%5B%5D=4009975&note_ids%5B%5D=1673306&note_ids%5B%5D=3992526&note_ids%5B%5D=4005306&note_ids%5B%5D=4013032&note_ids%5B%5D=4005167&note_ids%5B%5D=3939188&note_ids%5B%5D=4000631&note_ids%5B%5D=4011629&note_ids%5B%5D=3986169&note_ids%5B%5D=4009986&note_ids%5B%5D=4014289&note_ids%5B%5D=4020989&page=5)
+2016-05-19 14:36:02 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/e227b97ef49a>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:02 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/a968a642d134>
+{'likeNum': 2,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/2f98170f6eda'}
+2016-05-19 14:36:02 [scrapy] INFO: Closing spider (finished)
+2016-05-19 14:36:02 [scrapy] INFO: Stored csv feed (99 items) in: data.csv
+2016-05-19 14:36:02 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 202053,
+ 'downloader/request_count': 104,
+ 'downloader/request_method_count/GET': 104,
+ 'downloader/response_bytes': 1548469,
+ 'downloader/response_count': 104,
+ 'downloader/response_status_count/200': 104,
+ 'dupefilter/filtered': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 5, 19, 6, 36, 2, 153000),
+ 'item_scraped_count': 99,
+ 'log_count/DEBUG': 206,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 5,
+ 'response_received_count': 104,
+ 'scheduler/dequeued': 104,
+ 'scheduler/dequeued/memory': 104,
+ 'scheduler/enqueued': 104,
+ 'scheduler/enqueued/memory': 104,
+ 'start_time': datetime.datetime(2016, 5, 19, 6, 35, 58, 145000)}
+2016-05-19 14:36:02 [scrapy] INFO: Spider closed (finished)
+2016-05-19 14:38:22 [scrapy] INFO: Scrapy 1.1.0 started (bot: jianshu2)
+2016-05-19 14:38:22 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'jianshu2.spiders', 'FEED_URI': 'data.csv', 'SPIDER_MODULES': ['jianshu2.spiders'], 'BOT_NAME': 'jianshu2', 'FEED_FORMAT': 'csv', 'LOG_FILE': u'D:\\Python27\\jianshu2\\jianshu2\\spiders\\log.txt'}
+2016-05-19 14:38:22 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-05-19 14:38:22 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-05-19 14:38:22 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-05-19 14:38:22 [scrapy] INFO: Enabled item pipelines:
+[]
+2016-05-19 14:38:22 [scrapy] INFO: Spider opened
+2016-05-19 14:38:22 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-05-19 14:38:22 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-05-19 14:38:22 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com> (referer: None)
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/73b9e77fbae3> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/0d532effde79> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/6f19d663ce90> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/84c10f2cf100> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/ba16db3f6f71> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/b0dc04c927f1> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/f2e54edf229d> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/73b9e77fbae3>
+{'likeNum': 3,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/73b9e77fbae3'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/a233e5d10c80> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/0d532effde79>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/0d532effde79'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/1815b4071362> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/6f19d663ce90>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/6f19d663ce90'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/84c10f2cf100>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/84c10f2cf100'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/ba16db3f6f71>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/ba16db3f6f71'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/b0dc04c927f1>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/b0dc04c927f1'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/519551b6b5ab> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/f2e54edf229d>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/f2e54edf229d'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/931ecef07931> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/ec7ef24563bf> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/ee5432e57dd3> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/a233e5d10c80>
+{'likeNum': 21,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/a233e5d10c80'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/1815b4071362>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/1815b4071362'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/04657c762d10> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/0ea66783fbef> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/39449bcf9c28> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/519551b6b5ab>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/519551b6b5ab'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/931ecef07931>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/931ecef07931'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/ec7ef24563bf>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/ec7ef24563bf'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/ee5432e57dd3>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/ee5432e57dd3'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/73c54348374c> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/c684c0362986> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/ad491e073e4a> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/04657c762d10>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/04657c762d10'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/0ea66783fbef>
+{'likeNum': 5,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/0ea66783fbef'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com/p/a58d15ef5c8b> (referer: http://www.jianshu.com)
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/39449bcf9c28>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/39449bcf9c28'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/73c54348374c>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/73c54348374c'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/c684c0362986>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/c684c0362986'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/ad491e073e4a>
+{'likeNum': 0,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/ad491e073e4a'}
+2016-05-19 14:38:23 [scrapy] DEBUG: Scraped from <200 http://www.jianshu.com/p/a58d15ef5c8b>
+{'likeNum': 1,
+ 'quote': 'nimei',
+ 'url': u'http://www.jianshu.com/p/a58d15ef5c8b'}
+2016-05-19 14:38:23 [scrapy] INFO: Closing spider (finished)
+2016-05-19 14:38:23 [scrapy] INFO: Stored csv feed (20 items) in: data.csv
+2016-05-19 14:38:23 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 18253,
+ 'downloader/request_count': 21,
+ 'downloader/request_method_count/GET': 21,
+ 'downloader/response_bytes': 288593,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 21,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 5, 19, 6, 38, 23, 537000),
+ 'item_scraped_count': 20,
+ 'log_count/DEBUG': 42,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 21,
+ 'scheduler/dequeued': 21,
+ 'scheduler/dequeued/memory': 21,
+ 'scheduler/enqueued': 21,
+ 'scheduler/enqueued/memory': 21,
+ 'start_time': datetime.datetime(2016, 5, 19, 6, 38, 22, 520000)}
+2016-05-19 14:38:23 [scrapy] INFO: Spider closed (finished)
+2016-05-19 14:49:49 [scrapy] INFO: Scrapy 1.1.0 started (bot: jianshu2)
+2016-05-19 14:49:49 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'jianshu2.spiders', 'FEED_URI': u'D:\\Python27\\jianshu2\\jianshu2\\spiders\\data.csv', 'SPIDER_MODULES': ['jianshu2.spiders'], 'BOT_NAME': 'jianshu2', 'FEED_FORMAT': 'CSV', 'LOG_FILE': u'D:\\Python27\\jianshu2\\jianshu2\\spiders\\log.txt'}
+2016-05-19 14:49:49 [scrapy] ERROR: Unknown feed storage scheme: d
+2016-05-19 14:49:49 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-05-19 14:49:49 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-05-19 14:49:49 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-05-19 14:49:49 [twisted] CRITICAL: Unhandled error in Deferred:
+2016-05-19 14:49:49 [twisted] CRITICAL: 
+2016-05-19 14:50:25 [scrapy] INFO: Scrapy 1.1.0 started (bot: jianshu2)
+2016-05-19 14:50:25 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'jianshu2.spiders', 'FEED_URI': u'D:\\Python27\\jianshu2\\jianshu2\\spiders\\data.csv', 'SPIDER_MODULES': ['jianshu2.spiders'], 'BOT_NAME': 'jianshu2', 'FEED_FORMAT': 'CSV', 'LOG_FILE': u'D:\\Python27\\jianshu2\\jianshu2\\spiders\\log.txt'}
+2016-05-19 14:50:25 [scrapy] ERROR: Unknown feed storage scheme: d
+2016-05-19 14:50:25 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-05-19 14:50:26 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-05-19 14:50:26 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-05-19 14:50:26 [twisted] CRITICAL: Unhandled error in Deferred:
+2016-05-19 14:50:26 [twisted] CRITICAL: 
+2016-05-19 14:51:55 [scrapy] INFO: Scrapy 1.1.0 started (bot: jianshu2)
+2016-05-19 14:51:55 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'jianshu2.spiders', 'FEED_URI': u'D:\\Python27\\jianshu2\\jianshu2\\spiders\\data.csv', 'SPIDER_MODULES': ['jianshu2.spiders'], 'BOT_NAME': 'jianshu2', 'FEED_FORMAT': 'CSV', 'LOG_FILE': u'D:\\Python27\\jianshu2\\jianshu2\\spiders\\log.txt'}
+2016-05-19 14:51:55 [scrapy] ERROR: Unknown feed storage scheme: d
+2016-05-19 14:51:55 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-05-19 14:51:56 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-05-19 14:51:56 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-05-19 14:51:56 [twisted] CRITICAL: Unhandled error in Deferred:
+2016-05-19 14:51:56 [twisted] CRITICAL: 
+2016-05-19 14:58:55 [scrapy] INFO: Scrapy 1.1.0 started (bot: jianshu2)
+2016-05-19 14:58:55 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'jianshu2.spiders', 'FEED_URI': 'data.csv', 'SPIDER_MODULES': ['jianshu2.spiders'], 'BOT_NAME': 'jianshu2', 'FEED_FORMAT': 'csv', 'LOG_FILE': u'D:\\Python27\\jianshu2\\jianshu2\\spiders\\log.txt'}
+2016-05-19 14:58:55 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-05-19 14:58:56 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-05-19 14:58:56 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-05-19 14:58:56 [twisted] CRITICAL: Unhandled error in Deferred:
+2016-05-19 14:58:56 [twisted] CRITICAL: 
+2016-05-19 15:00:50 [scrapy] INFO: Scrapy 1.1.0 started (bot: jianshu2)
+2016-05-19 15:00:50 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'jianshu2.spiders', 'FEED_URI': 'data.csv', 'SPIDER_MODULES': ['jianshu2.spiders'], 'BOT_NAME': 'jianshu2', 'FEED_FORMAT': 'csv', 'LOG_FILE': u'D:\\Python27\\jianshu2\\jianshu2\\spiders\\log.txt'}
+2016-05-19 15:00:50 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-05-19 15:00:50 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-05-19 15:00:50 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-05-19 15:00:50 [twisted] CRITICAL: Unhandled error in Deferred:
+2016-05-19 15:00:50 [twisted] CRITICAL: 
+2016-05-19 15:02:28 [scrapy] INFO: Scrapy 1.1.0 started (bot: jianshu2)
+2016-05-19 15:02:28 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'jianshu2.spiders', 'FEED_URI': 'data.csv', 'SPIDER_MODULES': ['jianshu2.spiders'], 'BOT_NAME': 'jianshu2', 'FEED_FORMAT': 'csv', 'LOG_FILE': u'D:\\Python27\\jianshu2\\jianshu2\\spiders\\log.txt'}
+2016-05-19 15:02:28 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-05-19 15:02:28 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-05-19 15:02:28 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-05-19 15:02:28 [scrapy] INFO: Enabled item pipelines:
+['jianshu2.pipelines.Jianshu2Pipeline']
+2016-05-19 15:02:28 [scrapy] INFO: Spider opened
+2016-05-19 15:02:28 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-05-19 15:02:28 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-05-19 15:02:29 [scrapy] DEBUG: Crawled (200) <GET http://www.jianshu.com> (referer: None)
+2016-05-19 15:02:29 [scrapy] ERROR: Spider error processing <GET http://www.jianshu.com> (referer: None)
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\Python27\jianshu2\jianshu2\spiders\postSpider.py", line 33, in parse
+    request.meta['item'] = item
+NameError: global name 'request' is not defined
+2016-05-19 15:02:29 [scrapy] INFO: Closing spider (finished)
+2016-05-19 15:02:29 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 213,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 10117,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 5, 19, 7, 2, 29, 264000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/NameError': 1,
+ 'start_time': datetime.datetime(2016, 5, 19, 7, 2, 28, 898000)}
+2016-05-19 15:02:29 [scrapy] INFO: Spider closed (finished)
